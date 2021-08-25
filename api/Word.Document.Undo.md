@@ -35,7 +35,7 @@ _expression_ Required. A variable that represents a **[Document](Word.Document.m
 Boolean
 
 
-## Example
+## Example 1
 
 This example undoes the last two actions taken in Sales.doc.
 
@@ -54,6 +54,18 @@ On Error Resume Next
 If ActiveDocument.Undo = False Then _ 
  StatusBar = "Undo was unsuccessful"
 ```
+
+
+## Example 2
+
+This example undoes all actions taken in Sales.doc.
+
+
+```vb
+Documents("Sales.doc").Undo -1
+```
+
+This example undoes all possible actions.
 
 
 ## See also
