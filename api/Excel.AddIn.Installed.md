@@ -33,8 +33,10 @@ Setting this property to **True** installs the add-in and calls its Auto_Add fun
 This example uses a message box to display the installation status of the Solver add-in.
 
 ```vb
-Set a = AddIns("Solver Add-In") 
-If a.Installed = True Then 
+Dim SolverAddIn as AddIn
+Set SolverAddIn = AddIns("Solver Add-In")
+
+If SolverAddIn.Installed = True Then 
  MsgBox "The Solver add-in is installed" 
 Else 
  MsgBox "The Solver add-in is not installed" 
