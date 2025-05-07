@@ -21,7 +21,7 @@ Specifies whether the conditional format is based on a cell value or an expressi
 | **xlDataBar**|4|DataBar|
 | **xlErrorsCondition**|16|Errors condition|
 | **xlExpression**|2|Expression|
-| **xlIconSet**|6|Icon set|
+| **xlIconSets**|6|Icon set|
 | **xlNoBlanksCondition**|13|No blanks condition|
 | **xlNoErrorsCondition**|17|No errors condition|
 | **xlTextString**|9|Text string|
